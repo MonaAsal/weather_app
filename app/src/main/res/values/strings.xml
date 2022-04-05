@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PlanRadar </string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="pleaseEnterCityName">Please enter city name</string>
+    <string name="editCity">Edit Note</string>
+    <string name="createCity">Create Note</string>
+    <string name="title">Title</string>
+    <string name="search">Search</string>
+    <string name="search_here">Search here</string>
+    <string name="deleted">Deleted</string>
+    <string name="title_activity" />
+    <string name="description">Description</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="windspeed">Windspeed</string>
+    <string name="cities">Cities</string>
+    <string name="historical">historical</string>
+
+</resources>

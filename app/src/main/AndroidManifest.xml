@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.planradar.cities">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/plan_logo"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@drawable/plan_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="m">
+        <activity
+            android:name="com.planradar.cities.ui.cities.cityDetails.CityDetailsActivity"
+            android:label="@string/title_activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:parentActivityName="com.planradar.cities.ui.cities.citiesList.CitiesListActivity"/>
+        <activity
+            android:name="com.planradar.cities.ui.cities.cityHistorical.CityHistoricalActivity"
+            android:label="@string/title_activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:parentActivityName="com.planradar.cities.ui.cities.citiesList.CitiesListActivity"/>
+        <activity
+            android:name="com.planradar.cities.ui.cities.citiesList.CitiesListActivity"
+            android:label="@string/title_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.planradar.cities.ui.AddCityActivity"
+            android:label="@string/title_activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:parentActivityName="com.planradar.cities.ui.cities.citiesList.CitiesListActivity"/>
+    </application>
+
+</manifest>
